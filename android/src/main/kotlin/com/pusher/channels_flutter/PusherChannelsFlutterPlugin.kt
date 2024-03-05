@@ -104,6 +104,10 @@ class PusherChannelsFlutterPlugin : FlutterPlugin, MethodCallHandler, ActivityAw
             if (call.argument<String>("cluster") != null) options.setCluster(call.argument("cluster"))
             if (call.argument<String>("host") != null) options.host =
                 call.argument("host")!!
+            if (call.argument<Int>("wsPort") != null) options.wsPort =
+                call.argument("wsPort")!!
+            if (call.argument<Int>("wssPort") != null) options.wssPort =
+                call.argument("wssPort")!!
             if (call.argument<Boolean>("useTLS") != null) options.isUseTLS =
                 call.argument("useTLS")!!
             if (call.argument<Long>("activityTimeout") != null) options.activityTimeout =

@@ -91,6 +91,8 @@ class PusherChannelsFlutter {
     required String cluster,
     bool? useTLS,
     String? host,
+    int? wsPort,
+    int? wssPort,
     int? activityTimeout,
     int? pongTimeout,
     int? maxReconnectionAttempts,
