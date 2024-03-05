@@ -134,6 +134,8 @@ class PusherChannelsFlutter {
       "apiKey": apiKey,
       "cluster": cluster,
       "host": host,
+      "wsPort": wsPort,
+      "wssPort": wssPort,
       "useTLS": useTLS,
       "activityTimeout": activityTimeout,
       "pongTimeout": pongTimeout,
